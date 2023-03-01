@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(../../public/assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Nova Script", sans-serif;
+  src: url(../../public/assets/fonts/NovaScript-Regular.ttf);
+}
