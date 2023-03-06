@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 135px;
+  mix-blend-mode: normal;
+  opacity: 0.06;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.item-absolute {
+  position: absolute;
+  top: 59px;
+  width: 100%;
+  text-align: center;
+}
+
+.text-copy {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
+
+.text-special {
+  color: var(--primary-text-color);
+}
+
+.content {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
