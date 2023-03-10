@@ -1,8 +1,12 @@
 .step {
   max-width: 300px;
   text-align: center;
-  padding: 35px 0 20px 0;
+  padding: 0 50px 0 50px;
   position: relative;
+  display: flex;
+  max-height: 127px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .step-order {
@@ -13,7 +17,7 @@
   background-color: var(--secondary-button-color);
 }
 
-.step-delivery {
+.step-delivered {
   background-color: var(--primary-color);
 }
 

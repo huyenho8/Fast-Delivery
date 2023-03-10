@@ -7,7 +7,9 @@ export default function Title({ title, content }) {
       <div className="item-absolute">
         <p className="text-copy">
           {title.split(" ")[0]}
-          <span className="text-special">{title.slice(title.search(" "))}</span>
+          <span className="text-special">
+            {title.search(" ") !== -1 ? title.slice(title.search(" ")) : ""}
+          </span>
         </p>
         <p className="content">{content}</p>
       </div>
